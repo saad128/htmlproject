@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <h1 id="title">Why to Buy KIA</h1>
+
+<p id="description">Complete the detail below and place your order.</p>
+<form id="survey-form" action="">
+    <label for="name" id="name-label">Name: </label>
+    <input type="text" id="name" placeholder="Name" required>
+    <br>
+    <label for="email" id="email-label">Email: </label>
+    <input type="email" id="email" placeholder="Email" required>
+    <br>
+    <label for="number" id="number-label">Age:   </label>
+    <input type="number" id="number" placeholder="18" required min="18" max="75">
+    <br>
+    <label for="dropdown" id="model">Select Model: </label>
+    <select id="dropdown">
+        <option value="sportage">Sportage</option>
+        <option value="picanto">Picanto</option>
+        <option value="grand carnival">Grand Carnival</option>
+        <option value="saranto">Saranto</option>
+    </select>
+    <br>
+    <br>
+    <label for="model_color" id="model_color"> <b>Model Color</b></label>
+    <br>
+
+    <input type="radio" id="model_color" id="black" name="color" value="black">
+    <label for="model_color"><b>Black</b></label>
+    <br>
+    <input type="radio" id="blue" id="model_color" name="color" value="black">
+    <label for="model_color"> <b>Blue</b></label>
+    <br>
+    <input type="radio" id="green" id="model_color" name="color" value="black">
+    <label for="model_color"> <b>Green</b></label>
+    <br>
+    <br>
+    <label for="feattures"><b>Add Features</b></label>
+    <br>
+    <input type="checkbox" id="checkbox" name="features" value="autobootopener">
+    <label for="checkbox">Full Self-Opening-boot (AutoBootOpener) - $7000</label>
+    <br>
+    <input type="checkbox" id="checkbox" name="features" value="autobootopener">
+    <label for="checkbox">Full Self-Opening-boot (AutoBootOpener) - $17000</label>
+    <br>
+    <br>
+    <label for="textarea"><b>Additional Comments</b></label>
+    <br>
+    <textarea name="instructions" id="textarea" cols="40" rows="5"></textarea>
+    <br>
+    <br>
+    <input type="submit" id="submit" value="Place Order">
+
+</form>
+
+
+</body>
+</html>
